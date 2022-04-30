@@ -1,0 +1,37 @@
+:root {
+  --soft-blue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+  --dark-blue: hsl(216, 50%, 16%);
+  --light-blue: hsl(215, 32%, 27%);
+  --very-dark-blue: hsl(217, 54%, 11%);
+  --white: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  background: var(--very-dark-blue);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+
+  font-family: "Outfit", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  font-size: 1.8rem;
+}
