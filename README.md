@@ -47,10 +47,6 @@ This project was a great way to practice positioning with flexbox. Also, I was a
 
 To see how you can add code snippets, see below:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
 ```css
 .overlay {
   opacity: 0;
